@@ -1,0 +1,35 @@
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgb(40, 87, 105);
+    filter: blur(40);
+}
+.logo{
+    padding-left: 5px;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.nav-links{
+    list-style: none;
+    font-weight: 500;
+    font-size: small;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    padding-left: 10px;
+}
+ul li{
+    margin: 2px;padding: 2px;
+}
+ul li a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Inherits the color from the parent element */
+}

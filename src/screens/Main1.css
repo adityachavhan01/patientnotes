@@ -1,0 +1,33 @@
+.mainn-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(40, 87, 105);
+    color:white;
+    padding-bottom: 20px;
+    
+}
+.container1{
+    margin-top: 10vh;
+    padding-left: 10vw;
+}
+.container1 .a1{
+    font-size:3vw;
+    text-align: left;
+}
+.container1 .a2{
+    font-size:1vw;
+    text-align: left;
+}
+.a3{
+    margin-top: 10px;
+}
+.container1 .a3 button{
+    color: rgb(32, 66, 135);
+    border-radius: 20px;
+}
+.container2{
+    margin-top: 20vh;
+}
+
+
