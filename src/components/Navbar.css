@@ -8,12 +8,23 @@
     background-color: rgb(40, 87, 105);
     filter: blur(40);
 }
-.logo{
+.logo {
     padding-left: 5px;
     font-style: italic;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
+
+.logo a {
+    text-decoration: none;
+    color: inherit; /* Ensures that the link inherits the color of its parent */
+}
+
+.logo a:focus, .logo a:hover, .logo a:visited, .logo a:link, .logo a:active {
+    text-decoration: none; /* Removes underline from all link states */
+    color: inherit; /* Keeps the same color across all states */
+}
+
 .nav-links{
     list-style: none;
     font-weight: 500;

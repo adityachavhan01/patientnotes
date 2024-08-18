@@ -1,5 +1,6 @@
 import React from 'react'
 import './Main4.css'
+import img from '../images/main4img1.png'
 const Main4 = () => {
   return (
     <div>
@@ -9,7 +10,7 @@ const Main4 = () => {
         <div className='content2'>PatientNotes prioritizes the security and confidentiality of your patients’ data.<br/> Our platform meets the highest standards for AI applications in medical<br/> clinics and hospitals.</div>
         </div>
         <div className='main4-content2'>
-            <div ></div>
+              <img src={img}></img>
         </div>
       </div>
     </div>
