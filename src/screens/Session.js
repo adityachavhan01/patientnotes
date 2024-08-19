@@ -18,7 +18,7 @@ const Session = () => {
           {
             "parts": [
               {
-                "text": content
+                "text": question
               }
             ]
           }
