@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from './screens/Home';
 import Pricing from './screens/Pricing';
+import Session from './screens/Session'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/pricing" element={<Session />} />
           </Routes>
         </div>
       </Router>
