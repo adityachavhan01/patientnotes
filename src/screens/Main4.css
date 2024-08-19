@@ -17,6 +17,8 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .main4-content2{
+    display: flex;
+    flex-direction: row;
     margin: 3vw;
     padding:3vw;
 }
