@@ -3,7 +3,6 @@ import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognitio
 import './Dictate.css'
 import JoditEditor from 'jodit-react'
 
-
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
@@ -26,9 +25,9 @@ const Dictate = () => {
             <Navbar />
             <div className='dictate'>
                 <p>Microphone: {listening ? 'on' : 'off'}</p>
-                <button onClick={SpeechRecognition.startListening}>Start</button>
-                <button onClick={SpeechRecognition.stopListening}>Stop</button>
-                <button onClick={resetTranscript}>Reset</button>
+                <button onClick={SpeechRecognition.startListening}>Start Genrating</button>
+                <button onClick={SpeechRecognition.stopListening}>Stop Generating</button>
+                <button onClick={resetTranscript}>Reset previous</button>
                 {/* <p className='content'>{transcript}</p> */}
                 <div className='content'>
                     <JoditEditor ref={editor} value={transcript} />
