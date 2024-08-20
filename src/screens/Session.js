@@ -13,6 +13,7 @@ import ReactMarkdown from 'react-markdown';
 const Session = () => {
   const [question, setquestion] = useState("");
   const [answer, setanswer] = useState("")
+  // //use ref for jodit
   // const editor = useRef(null)
   // const [content, setcontent] = useState("")
 

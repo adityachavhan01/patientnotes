@@ -1,0 +1,19 @@
+.dictate{
+    background-color:  rgb(40, 87, 105);
+    color: white;
+    margin: 2vw;
+}
+.dictate  button{
+    color: rgb(32, 66, 135);
+    width: 6vw;
+    border-radius: 20px;
+    margin: 1px;
+}
+.content{
+    background-color:rgba(22, 6, 63, 0.133);  /* Darker background for code blocks */
+    color: #000000;  /* Light text color for contrast */
+    margin: 1px;
+    border-radius: 8px;
+    overflow-x: auto;  /* Horizontal scroll if the code is too wide */
+    margin-bottom: 20px;  /* Space below the code block */
+}
