@@ -7,8 +7,8 @@ import {
   Route
 } from "react-router-dom";
 import Home from './screens/Home';
-import Pricing from './screens/Pricing';
 import Session from './screens/Session'
+import Dictate from './screens/Dictate';
 
 function App() {
   return (
@@ -19,6 +19,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/pricing" element={<Session />} />
+            <Route path="/dictate" element={<Dictate />} />
+
           </Routes>
         </div>
       </Router>

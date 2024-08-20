@@ -1,0 +1,38 @@
+.session-content1 {
+  margin: 5vw;
+}
+.session-content1 textArea {
+  margin: 5vw;
+  background: rgb(40, 87, 105);
+  color: white;
+  border-radius: 30px;
+  margin: 5px;
+  padding: 2vw;
+}
+.session-content3 {
+    background-color: rgb(40, 87, 105);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    overflow: auto;
+    text-align: left;
+  }
+  
+  /* Optional: Add specific styles for different Markdown elements */
+ 
+  .session-content3 pre {
+    background-color: #333;  /* Darker background for code blocks */
+    color: #f8f8f2;  /* Light text color for contrast */
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;  /* Horizontal scroll if the code is too wide */
+    margin-bottom: 20px;  /* Space below the code block */
+  }
+  .session-content3 p {
+    margin-bottom: 10px; /* Adjust paragraph spacing */
+  }
+  
+  
+  /* Add more styles as needed */
+  
