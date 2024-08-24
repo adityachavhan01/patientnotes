@@ -1,8 +1,18 @@
+.main-session{
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: row;
+}
 .session-content1 {
   margin: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .session-content1 textArea {
   margin: 5vw;
+  /* margin-top: 0px; */
   background: rgb(40, 87, 105);
   color: white;
   border-radius: 30px;
@@ -10,15 +20,17 @@
   padding: 2vw;
 }
 .session-content3 {
-    background-color: rgb(40, 87, 105);
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px;
-    overflow-x: auto;
-    text-align: left;
-  }
-  
+  margin: 10vh;
+  background-color: rgb(242, 247, 249);
+  color: rgba(0, 0, 0, 0.989);
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  overflow-y: auto; /* Add vertical scroll bar */
+  max-height: 400px; /* Set a max height for the container */
+  text-align: left;
+}
+
   /* Optional: Add specific styles for different Markdown elements */
  
   .session-content3 pre {

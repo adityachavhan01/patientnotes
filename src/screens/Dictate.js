@@ -9,7 +9,6 @@ import Footer from '../components/Footer'
 
 const Dictate = () => {
     const editor = useRef(null)
-
     const {
         transcript,
         listening,

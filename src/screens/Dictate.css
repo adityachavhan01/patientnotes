@@ -1,7 +1,9 @@
 .dictate{
     background-color:  rgb(40, 87, 105);
-    color: white;
+    color: rgb(254, 254, 254);
     margin: 2vw;
+    width:40vw;
+    border-radius: 30px;
 }
 .dictate  button{
     color: rgb(32, 66, 135);
